@@ -22,6 +22,8 @@ module.exports = { // addapted from: https://git.io/vodU0
             .openNewWindow('tab', function(result) {
                 console.log(result.value);
               })
+
+              
             .pause(10000)
             .end();
         }

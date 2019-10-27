@@ -1,0 +1,20 @@
+{
+  "name": "MiksikeTest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch /tests/test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "^4.1.0",
+    "mathjs": "^6.2.3",
+    "nightwatch": "^1.2.4"
+  },
+  "devDependencies": {
+    "geckodriver": "^1.19.0"
+  }
+}
