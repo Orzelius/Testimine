@@ -13,11 +13,13 @@ module.exports = { // addapted from: https://git.io/vodU0
       .useXpath()
       .pause(1000)
       .click('/html/body/div[1]/form[2]/table/tbody/tr/td[4]/a')
-      .pause(500)
-      .click('/html/body/div[2]/div[1]/table/tbody/tr[2]/td[2]/table/tbody/tr/td/table/tbody/tr/td[4]/a')
-      .pause(500)
+      .pause(1000)
+      .waitForElementVisible('//*[@id="Trenniväljak"]')
+      .click('//*[@id="Trenniväljak"]')
+      .pause(1000)
+      .waitForElementVisible('/html/body/div[2]/div[2]/div/table/tbody/tr[2]/td[1]/table/tbody/tr[8]/td[2]/a')
       .click('/html/body/div[2]/div[2]/div/table/tbody/tr[2]/td[1]/table/tbody/tr[8]/td[2]/a')
-      .pause(500)
+      .pause(1000)
       .windowHandles(function (result) {
         // An array of window handles.
         handle = result;
