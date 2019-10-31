@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "nightwatch /tests/test.js"
+    "miksike": "nightwatch /tests/miksike.js",
+    "duolingo": "nightwatch /tests/duolingo.js"
   },
   "keywords": [],
   "author": "",

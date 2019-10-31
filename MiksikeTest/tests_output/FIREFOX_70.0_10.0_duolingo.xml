@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="1"
+            tests="1">
+
+  <testsuite name="duolingo"
+    errors="2" failures="1" hostname="" id="" package="duolingo" skipped="0"
+    tests="1" time="56.90" timestamp="">
+  
+    <testcase name="duolingo test" classname="duolingo" time="56.90" assertions="13">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Timed out while waiting for element &lt;/html/body/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[3]/div[1]/div[2]/div/span[1]/span&gt; to be present for 5000 milliseconds. - expected [0;32m&#34;visible&#34;[0m but got: [0;31m&#34;not found&#34;[0m">    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\User\Desktop\projects\School\Testimine\MiksikeTest\tests\duolingo.js:73:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+
+    <failure message="    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\User\Desktop\projects\School\Testimine\MiksikeTest\tests\duolingo.js:73:26)">    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
