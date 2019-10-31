@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
+            failures="0"
             tests="1">
 
   <testsuite name="test"
-    errors="0" failures="1" hostname="" id="" package="test" skipped="0"
-    tests="1" time="14.11" timestamp="">
+    errors="0" failures="0" hostname="" id="" package="test" skipped="0"
+    tests="1" time="73.02" timestamp="">
   
-    <testcase name="miksike test" classname="test" time="14.11" assertions="6">
+    <testcase name="miksike test" classname="test" time="73.02" assertions="43">
 
     
 
@@ -17,10 +17,83 @@
 
     
 
-      <failure message="Timed out while waiting for element &lt;//*[@id=&#34;txtTehtav&#34;]&gt; to be present for 5000 milliseconds. - expected [0;32m&#34;visible&#34;[0m but got: [0;31m&#34;not found&#34;[0m">    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\User\Desktop\projects\School\Testimine\MiksikeTest\tests\test.js:34:14)
-    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    
 
-    <failure message="    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\User\Desktop\projects\School\Testimine\MiksikeTest\tests\test.js:34:14)">    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
     </testcase>
   
 
